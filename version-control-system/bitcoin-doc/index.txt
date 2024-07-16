@@ -15,14 +15,4 @@ encrypted, and validators verify the transaction—called miners—in the networ
 When a transaction is verified, a new block is opened, and a Bitcoin is created and given as a reward to the miner(s) 
 who verified the data within the block—they are then free to use it, hold it, or sell it.
 
-Bitcoin uses the SHA-256 hashing algorithm to encrypt the data stored in the blocks on the blockchain. 
-Simply put, transaction data stored in a block is encrypted into a 256-bit hexadecimal number. 
-That number contains all the transaction data and information linked to the blocks before that block.
-
-To use your Bitcoin, you need to have a cryptocurrency wallet. 
-Wallets hold the private keys to the bitcoin you own, which need to be entered when conducting a transaction. 
-Bitcoin is accepted as a means of payment for goods and services at many merchants, retailers, and stores.
-
-Brick-and-mortar stores that accept cryptocurrencies will generally display a sign that says “Bitcoin Accepted Here”; 
-the transactions can be handled with the requisite hardware terminal or wallet address through QR codes and touchscreen apps. 
-An online business can easily accept Bitcoin by adding this payment option to its other online payment options: credit cards, PayPal, etc.
+test text.
