@@ -14,3 +14,5 @@ When a transaction takes place on the blockchain, information from the previous 
 encrypted, and validators verify the transaction—called miners—in the network. 
 When a transaction is verified, a new block is opened, and a Bitcoin is created and given as a reward to the miner(s) 
 who verified the data within the block—they are then free to use it, hold it, or sell it.
+
+test text.
