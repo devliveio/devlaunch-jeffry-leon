@@ -1,0 +1,3 @@
+  I proceed to open the vehicle
+  If it is closed, I use the key to unlock the door.
+  If it is unlocked, I open the door
