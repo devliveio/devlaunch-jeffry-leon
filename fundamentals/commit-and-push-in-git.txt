@@ -1,0 +1,19 @@
+-If I don´t have a local development environment set up
+  -I set up a local development environment
+	-else,I navigate to my project directory
+-I open my version control tool, Git
+-I checkout the branch that I am currently in
+    -If i am on the desired branch, i stay there
+    -Else, I type in "git checkout " to look for the desired branch
+-I check the status of my project
+-If there are uncommitted changes
+	-I review the changes
+  -I stage the changes
+-I use the command: `git add .` to stage all changes, or specific files if needed
+-I commit the changes
+-I use the command: `git commit -m "My commit message"`
+-I push the changes to the remote repository
+-I use the command: `git push origin branch_name`
+-I confirm the changes are reflected in the remote repository
+-I check the remote repository,  GitHub, to verify the commit
+-I celebrate my successful commit and push
