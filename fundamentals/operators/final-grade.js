@@ -6,4 +6,4 @@ const grade3 = parseFloat(prompt("Enter the third grade: "))
 
 const averageGrade = (grade1 + grade2 + grade3) / 3
 
-console.log(`Final average grade: ${averageGrade.toFixed(2)})
+console.log("Final average grade") = averageGrade
