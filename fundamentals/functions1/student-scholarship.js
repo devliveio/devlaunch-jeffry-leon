@@ -21,3 +21,5 @@ function applyToScholarship(grade1, grade2, grade3, grade4, assistantGrade) {
   console.log(applyToScholarship(8, 8, 8, 8, "C")) 
   console.log(applyToScholarship(8.5, 8.5, 8.5, 8.5, "B")) 
   console.log(applyToScholarship(7, 8, 10, 10, "B")) 
+  console.log()
+  
