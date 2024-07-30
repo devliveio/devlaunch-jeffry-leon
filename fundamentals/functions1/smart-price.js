@@ -16,4 +16,4 @@ function discountNoPerishable (price){
   
 }
 
-console.log((price, productName, productType, discountNoPerishable))
+console.log((price, productName, productType))
