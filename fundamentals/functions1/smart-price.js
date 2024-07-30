@@ -3,15 +3,15 @@ const productType = (perishable, non-perishable)
 
 
 function discountPerishable(price){
-    return price => 5 && price >= 10 ? "5%":
-    price => 10 && price <= 15 ? "15%": "Not discount"
+    return price > 5 && price > 10 ? "5%":
+    price > 10 && price < 15 ? "15%": "Not discount"
 
 
 }
 
 function discountNoPerishable (price){
-    return price => 10 ? "7%":
-    price <= 10 ? "25%": "Not discount"  
+    return price < 10 ? "7%":
+    price > 10 ? "25%": "Not discount"  
 
   
 }
