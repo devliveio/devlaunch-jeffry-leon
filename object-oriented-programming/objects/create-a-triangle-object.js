@@ -1,22 +1,19 @@
 const triangle = {
-    isTriangle: function (sideA, sideB, sideC){
+    isTriangle: function(sideA, sideB, sideC) {
         return (
             sideA + sideB > sideC &&
             sideA + sideC > sideB &&
-            sideA + sideC > sideA
+            sideB + sideC > sideA
         );
     },
 
-    printTriangle: function (sideA, sideB, sideC){
-        if (this.isTriangle(sideA, sideB, sideC)){
-            console.log ("Valid triangle");
+    printTriangle: function(sideA, sideB, sideC) {
+        if (this.isTriangle(sideA, sideB, sideC)) {
+            console.log('The triangle is valid.');
         } else {
-            console.log ("Not valid triangle");
-    
+            console.log('The triangle is not valid.');
         }
     }
-
-
 };
 
-console.log(triangle.printTriangle(7, 5, 10))
+console.log(triangle.printTriangle(7, 5, 10));
