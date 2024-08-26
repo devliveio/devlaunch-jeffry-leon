@@ -1,6 +1,6 @@
 class Character {
     public name: string
-    private health: number
+    protected health: number
 
     constructor (name: string, health: number){
         this.name = name
