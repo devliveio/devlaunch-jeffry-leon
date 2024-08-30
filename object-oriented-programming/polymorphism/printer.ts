@@ -38,6 +38,8 @@ const faxPrinter = new FaxPrinter
 const user1 = new User("User1", printer)
 const user2 = new User("User2", pdfPrinter)
 const user3 = new User("User3", faxPrinter)
+const user4 = new User("User4", faxPrinter)
+
 
 
 
