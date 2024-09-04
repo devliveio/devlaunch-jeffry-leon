@@ -1,11 +1,10 @@
 abstract class Restaurant {
     abstract serve(): void
 }
-
 class FastFood extends Restaurant {
     serve(){
         console.log("Serving burgers and fries")
-        }}
+    }}
 class FineDining extends Restaurant {
     serve() {
         console.log("Serving gourmet dishes")
