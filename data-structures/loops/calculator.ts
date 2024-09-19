@@ -9,7 +9,7 @@ function menu(): void {
         console.log("3. Multiply");
         console.log("4. Divide");
         console.log ("5. Exit");
-        option = parseInt(prompt("Ingrese una opción: "));
+        option = prompt("Ingrese una opción: ");
 
         if (option >= 1 && option <= 4){
             let num1 = parseInt(prompt("Ingrese el primer número: "));
@@ -37,7 +37,6 @@ function menu(): void {
             console.clear();
         }
     } while (option != 5)
-
+        menu();
 }
-
 menu();
