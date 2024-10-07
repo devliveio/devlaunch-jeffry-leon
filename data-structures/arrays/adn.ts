@@ -1,19 +1,18 @@
-const dna: string = 'gtggggggtttatgcctttagaacagcag'
-const subsequenceCase: string = 'ggt'
+const dna: string =  `gtggggggtttatgcctttagaacagcag`
 
-function dnaSequence (dna : string, match: string): boolean {
-    let subsequence =""
-    for (let i = 0; i<=dna.length-match.length; i++){
-        subsequence = dna.slice(i, i+match.length)
-        if(subsequence === match)
-            return true
+const subsequence: string = `ggg`
+
+function findSequence(dna: string, match: string): boolean {
+    let subsequence = ""
+    for (let i = 0; i <= dna.length-match.length; i++){
+        subsequence = dna.slice(i, i + match.length)
+        if(subsequence === match) return true
     }
 
     return false
 }
 
-const testSubsequence = dnaSequence(dna, subsequenceCase)
-console.log(`The subsequence is: ${testSubsequence}`)
+console.log(findSequence(dna, subsequence))
 
 
 
