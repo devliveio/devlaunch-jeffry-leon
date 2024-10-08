@@ -1,8 +1,8 @@
 function Arrays_sum(arr1: number[], arr2: number[]): number [] 
 {
-  var result: number[] = [];
-  var ctr = 0;
-  var x=0;
+  let result: number[] = [];
+  let ctr = 0;
+  let x=0;
 
  while (ctr < arr1.length && ctr < arr2.length) 
   {
